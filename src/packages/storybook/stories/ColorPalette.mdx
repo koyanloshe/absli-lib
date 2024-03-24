@@ -1,0 +1,68 @@
+import {
+  Meta,
+  ColorPalette,
+  ColorItem,
+  Title,
+  Description,
+  Unstyled,
+} from "@storybook/blocks";
+
+import ColorPalettePage from "../stories/pages/ColorPalette";
+
+<Meta title="Foundations/Colours" />
+<Unstyled>
+
+<ColorPalettePage />
+
+<ColorItem
+  title="Grey Scale"
+  colors={{
+    Black: "#231f20",
+    "Grey 900": "#414042",
+    "Grey 700": "#77787B",
+    "Grey 600": "#BBBBBD",
+    "Grey 500": "#DCDDDE",
+    "Grey 300": "#EDEEEF",
+    "Grey 100": "#FAFAFA",
+  }}
+/>
+Black and Greys form the neutral backdrop of our design system,
+providing balance and sophistication. These tones serve as a
+base for surfaces, text and layouts ensuring a clean aesthetic.
+When used in components, they often symbolize a change in state.
+<hr />
+<br />
+<ColorItem
+  title="Red Scale"
+  subtitle=""
+  colors={{
+    "Red 900": "#500E11",
+    "Red 700": "#8B151B",
+    "Red 600": "#A71D23",
+    "Red 500": "#C7222A",
+    "Red 400": "#D24E55",
+    "Red 300": "#DD7A7F",
+    "Red 200": "#E9A7AA",
+    "Red 100": "#F4D3D4",
+    "Red 50": "#F9E9EA",
+  }}
+/>
+Our red tones, ranging from 900 to 50, represent the heartbeat
+of our brand. Bold, dynamic, and attention-grabbing, these shades
+of red command authority and convey a sense of passion and energy.
+They are often used in components to symbolize a change in state.
+<br />
+
+<hr />
+<br />
+
+<ColorItem
+  colors={{
+    Apple: "rgba(102,191,60,1)",
+    Apple80: "rgba(102,191,60,.8)",
+    Apple60: "rgba(102,191,60,.6)",
+    Apple30: "rgba(102,191,60,.3)",
+  }}
+/>
+
+</Unstyled>

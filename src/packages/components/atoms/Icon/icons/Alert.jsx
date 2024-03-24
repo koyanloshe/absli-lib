@@ -1,0 +1,12 @@
+
+          import React from "react";
+
+          const Alert = (props) => (
+            <svg {...props} xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+  <path fill="currentColor" fill-rule="evenodd" d="M6 11.5a.5.5 0 0 1 .5.5v.5a1.5 1.5 0 0 0 3 0V12a.5.5 0 0 1 1 0v.5a2.5 2.5 0 0 1-5 0V12a.5.5 0 0 1 .5-.5Z" clip-rule="evenodd"/>
+</svg>
+
+          );
+
+          export default Alert;
+          

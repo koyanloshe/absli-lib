@@ -1,0 +1,95 @@
+@import "./options.scss";
+@import "../../node_modules/bootstrap/scss/_mixins.scss";
+
+$font-family-base:
+  "Inter",
+  system-ui,
+  -apple-system,
+  "Segoe UI",
+  Roboto,
+  "Helvetica Neue",
+  "Noto Sans",
+  "Liberation Sans",
+  Arial,
+  sans-serif,
+  "Apple Color Emoji",
+  "Segoe UI Emoji",
+  "Segoe UI Symbol",
+  "Noto Color Emoji" !default;
+
+$font-weight-lighter: 400;
+$font-weight-light: 400;
+$font-weight-normal: 400;
+$font-weight-medium: 600;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+$font-weight-bolder: 700;
+
+$rfs-factor: 1024;
+
+$font-size-base: 1rem;
+$h1-font-size: $font-size-base * 4.5;
+$h2-font-size: $font-size-base * 4;
+$h3-font-size: $font-size-base * 3;
+$h4-font-size: $font-size-base * 2.25;
+$h5-font-size: $font-size-base * 1.5;
+$h6-font-size: $font-size-base;
+
+$font-sizes: (
+  1: $font-size-base,
+  2: $font-size-base * 0.875,
+  3: $font-size-base * 0.75,
+  4: null,
+  5: null,
+  6: null,
+);
+
+// @import "../../node_modules/bootstrap/scss/_type.scss";
+
+// $headings-margin-bottom:      $spacer * .5;
+// $headings-font-family:        null;
+// $headings-font-style:         null;
+// $headings-font-weight:        500;
+// $headings-line-height:        1.2;
+// $headings-color:              inherit;
+
+// $display-font-family: null;
+// $display-font-style: null;
+// $display-font-weight: 300;
+// $display-line-height: $headings-line-height;
+
+// $link-color
+
+// $body-bg
+
+// $font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+// $font-size-root:              null;
+// $font-size-sm:                $font-size-base * .875;
+// $font-size-lg:                $font-size-base * 1.25;
+
+// $font-weight-base:            $font-weight-normal;
+
+// $line-height-base:            1.5;
+// $line-height-sm:              1.25;
+// $line-height-lg:              2;
+
+// $display-font-sizes: (
+//   1: 5rem,
+//   2: 4.5rem,
+//   3: 4rem,
+//   4: 3.5rem,
+//   5: 3rem,
+//   6: 2.5rem
+// );
+
+// $theme-colors-text: (
+//   "primary": $primary-text-emphasis,
+//   "secondary": $secondary-text-emphasis,
+//   "success": $success-text-emphasis,
+//   "info": $info-text-emphasis,
+//   "warning": $warning-text-emphasis,
+//   "danger": $danger-text-emphasis,
+//   "light": $light-text-emphasis,
+//   "dark": $dark-text-emphasis,
+// );

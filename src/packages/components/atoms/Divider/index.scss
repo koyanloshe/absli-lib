@@ -1,0 +1,77 @@
+hr {
+  border-width: 2px;
+  border-color: rgba(0, 0, 0, 0.1);
+  height: 2px;
+  &::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 94%;
+    padding-top: 2px;
+  }
+  &.radial::before {
+    background-image: linear-gradient(
+      to right,
+      transparent 0%,
+      rgba(0, 0, 0, 1) 50%,
+      transparent 100%
+    );
+    @media (prefers-color-scheme: dark) {
+      background-image: linear-gradient(
+        to right,
+        transparent 0%,
+        rgba(255, 255, 255, 1) 50%,
+        transparent 100%
+      );
+    }
+  }
+  &.linear::before {
+    padding-top: 1px;
+    background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 1) 0%,
+      transparent 100%
+    );
+    @media (prefers-color-scheme: dark) {
+      background-image: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 1) 0%,
+        transparent 100%
+      );
+    }
+  }
+  &.dashed {
+    padding-top: 1px;
+    border-style: dashed;
+    border-top: 0px;
+    border-color: rgba(0, 0, 0, 0.1);
+    @media (prefers-color-scheme: dark) {
+      border-color: rgba(255, 255, 255, 1);
+    }
+  }
+  &.line::before {
+    background-image: linear-gradient(
+        to right,
+        #fff 0%,
+        #fff 20%
+      ),
+      linear-gradient(
+        to right,
+        transparent 20%,
+        transparent 40%
+      ),
+      linear-gradient(to right, #fff 40%, #fff 60%),
+      repeating-linear-gradient(
+        to right,
+        transparent 60%,
+        transparent 100%
+      );
+    @media (prefers-color-scheme: dark) {
+      background-image: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(255, 255, 255, 1) 100%
+      );
+    }
+  }
+}

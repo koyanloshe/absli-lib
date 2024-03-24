@@ -1,0 +1,13 @@
+
+          import React from "react";
+
+          const TrendUp = (props) => (
+            <svg {...props} xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+  <path fill="currentColor" fill-rule="evenodd" d="M14.854 3.147a.5.5 0 0 1 0 .707l-6 6a.5.5 0 0 1-.708 0L6 7.707l-4.146 4.147a.5.5 0 0 1-.708-.707l4.5-4.5a.5.5 0 0 1 .708 0L8.5 8.793l5.646-5.646a.5.5 0 0 1 .708 0Z" clip-rule="evenodd"/>
+  <path fill="currentColor" fill-rule="evenodd" d="M10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4h-3.5a.5.5 0 0 1-.5-.5Z" clip-rule="evenodd"/>
+</svg>
+
+          );
+
+          export default TrendUp;
+          

@@ -1,0 +1,145 @@
+import {
+  Meta,
+  ColorPalette,
+  ColorItem,
+  Title,
+  Description,
+  Unstyled,
+} from "@storybook/blocks";
+import Image from "next/image";
+import Pattern from "./assets/pattern.png";
+
+<Meta title="Foundations/Typography" />
+<Unstyled>
+
+<div className="container-fluid">
+  <div className="row my-5">
+    <div className="col-md-5">
+      <h1>Colours</h1>
+    </div>
+    <div className="col-md-7">
+      <p>
+        Colours evoke emotions, convey messages, and
+        establish a unique and memorable brand presence.
+        This section provides an overview of the
+        significance of each Colour in our palette and how
+        they contribute to the overall brand experience.
+        Consistent use of these Colours will ensure a
+        recognizable visual identity.
+      </p>
+    </div>
+    <hr className="my-5"/>
+  </div>
+  <div className="row my-5">
+    <div className="col-md-12">
+      <Image src={Pattern} className="w-100 mt-1 mb-5" />
+    </div>
+  </div>
+  <div className="row my-5 pb-5">
+    <div className="col-md-5">
+      <h3 className="text-capitalize">Getting colours right</h3>
+    </div>
+    <div className="col-md-7">
+      <p>
+        Colours in UI design can speak in ways that are every bit as powerful as copy. They not only affect how your design looks, but can go as far as to elicit emotion and reflect the personality of your brand.
+
+        While Colour can be subjective, it's clear that good Colours
+        can attract and convert users. Bad Colours, on the other
+        hand, can turn away users and even make designs inaccessible
+        and unusable.
+      </p>
+    </div>
+
+  </div>
+  <div className="row my-5 py-5">
+    <div className="col-md-5">
+      <div className="row">
+          <h3 className="mb-4">Primary Brand Colours</h3>
+      </div>
+      <div className="row">
+        <div className="col-md-6 h-100">
+          <div className="card p-2" style={{backgroundColor:"#fff"}}>
+            <p className="lead mb-0">White</p>
+            <p>#fff</p>
+          </div>
+        </div>
+        <div className="col-md-6 h-100">
+          <div className="card p-2" style={{backgroundColor:"#C7222A"}}>
+            <p className="lead mb-0">Capital Red</p>
+            <p>#C7222A</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div className="col-md-7">
+      <p>
+        Our primary Colours are the foundational elements of ABC’s visual identity.
+
+        These hues embody the core essence of our brand,
+        representing strength, reliability, and innovation.
+
+        This Colour palette is used across all the interactive
+        elements such as CTA’s, links, inputs, selected states, etc.
+
+        These brand Colours are the main Colours that make up the
+        majority of the Colours used in the design system and
+        components.
+
+      </p>
+    </div>
+
+  </div>
+</div>
+
+<br />
+
+<ColorItem
+  title="Grey Scale"
+  colors={{
+    Black: "#231f20",
+    "Grey 900": "#414042",
+    "Grey 700": "#77787B",
+    "Grey 600": "#BBBBBD",
+    "Grey 500": "#DCDDDE",
+    "Grey 300": "#EDEEEF",
+    "Grey 100": "#FAFAFA",
+  }}
+/>
+Black and Greys form the neutral backdrop of our design system,
+providing balance and sophistication. These tones serve as a
+base for surfaces, text and layouts ensuring a clean aesthetic.
+When used in components, they often symbolize a change in state.
+<hr />
+<br />
+<ColorItem
+  title="Red Scale"
+  subtitle=""
+  colors={{
+    "Red 900": "#500E11",
+    "Red 700": "#8B151B",
+    "Red 600": "#A71D23",
+    "Red 500": "#C7222A",
+    "Red 400": "#D24E55",
+    "Red 300": "#DD7A7F",
+    "Red 200": "#E9A7AA",
+    "Red 100": "#F4D3D4",
+    "Red 50": "#F9E9EA",
+  }}
+/>
+Our red tones, ranging from 900 to 50, represent the heartbeat
+of our brand. Bold, dynamic, and attention-grabbing, these shades
+of red command authority and convey a sense of passion and energy.
+They are often used in components to symbolize a change in state.
+<hr />
+<br />
+
+<ColorItem
+  colors={{
+    Apple: "rgba(102,191,60,1)",
+    Apple80: "rgba(102,191,60,.8)",
+    Apple60: "rgba(102,191,60,.6)",
+    Apple30: "rgba(102,191,60,.3)",
+  }}
+/>
+
+</Unstyled>

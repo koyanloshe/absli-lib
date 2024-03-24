@@ -1,0 +1,13 @@
+
+          import React from "react";
+
+          const UserList = (props) => (
+            <svg {...props} xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+  <path fill="currentColor" fill-rule="evenodd" d="M5 4.5a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-3 2a3 3 0 1 1 6 0 3 3 0 0 1-6 0ZM9 5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6A.5.5 0 0 1 9 5Zm0 3a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6A.5.5 0 0 1 9 8Zm1.5 3a.5.5 0 0 1 .5-.5h4.5a.5.5 0 0 1 0 1H11a.5.5 0 0 1-.5-.5Z" clip-rule="evenodd"/>
+  <path fill="currentColor" fill-rule="evenodd" d="M5 9.5c-1.649 0-3.132 1.133-3.516 2.625a.5.5 0 0 1-.968-.25C1.02 9.918 2.92 8.5 5 8.5s3.98 1.417 4.484 3.376a.5.5 0 1 1-.968.249C8.132 10.633 6.649 9.5 5 9.5Z" clip-rule="evenodd"/>
+</svg>
+
+          );
+
+          export default UserList;
+          

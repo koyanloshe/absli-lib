@@ -1,0 +1,14 @@
+
+          import React from "react";
+
+          const Bank = (props) => (
+            <svg {...props} xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+  <path fill="currentColor" fill-rule="evenodd" d="M7.738 1.574a.5.5 0 0 1 .524 0l6.5 4a.5.5 0 0 1-.262.926h-13a.5.5 0 0 1-.262-.926l6.5-4ZM3.267 5.5h9.466L8 2.587 3.267 5.5Z" clip-rule="evenodd"/>
+  <path fill="currentColor" fill-rule="evenodd" d="M3.5 5.5A.5.5 0 0 1 4 6v5a.5.5 0 1 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 0A.5.5 0 0 1 7 6v5a.5.5 0 1 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 0a.5.5 0 0 1 .5.5v5a.5.5 0 1 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 0a.5.5 0 0 1 .5.5v5a.5.5 0 1 1-1 0V6a.5.5 0 0 1 .5-.5Z" clip-rule="evenodd"/>
+  <path fill="currentColor" fill-rule="evenodd" d="M1.5 11a.5.5 0 0 1 .5-.5h12a.5.5 0 0 1 0 1H2a.5.5 0 0 1-.5-.5Zm-1 2a.5.5 0 0 1 .5-.5h14a.5.5 0 0 1 0 1H1a.5.5 0 0 1-.5-.5Z" clip-rule="evenodd"/>
+</svg>
+
+          );
+
+          export default Bank;
+          

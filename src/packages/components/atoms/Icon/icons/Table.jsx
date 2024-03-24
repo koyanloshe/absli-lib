@@ -1,0 +1,14 @@
+
+          import React from "react";
+
+          const Table = (props) => (
+            <svg {...props} xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+  <path fill="currentColor" fill-rule="evenodd" d="M1.5 3.5A.5.5 0 0 1 2 3h12a.5.5 0 0 1 .5.5V12a1 1 0 0 1-1 1h-11a1 1 0 0 1-1-1V3.5Zm1 .5v8h11V4h-11Z" clip-rule="evenodd"/>
+  <path fill="currentColor" fill-rule="evenodd" d="M1.5 6.5A.5.5 0 0 1 2 6h12a.5.5 0 0 1 0 1H2a.5.5 0 0 1-.5-.5Zm0 3A.5.5 0 0 1 2 9h12a.5.5 0 0 1 0 1H2a.5.5 0 0 1-.5-.5Z" clip-rule="evenodd"/>
+  <path fill="currentColor" fill-rule="evenodd" d="M5.5 6a.5.5 0 0 1 .5.5v6a.5.5 0 1 1-1 0v-6a.5.5 0 0 1 .5-.5Z" clip-rule="evenodd"/>
+</svg>
+
+          );
+
+          export default Table;
+          

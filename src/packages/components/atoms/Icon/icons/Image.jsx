@@ -1,0 +1,13 @@
+
+          import React from "react";
+
+          const Image = (props) => (
+            <svg {...props} xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+  <path fill="currentColor" fill-rule="evenodd" d="M2 3a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3Zm11 0H3v10h10V3Z" clip-rule="evenodd"/>
+  <path fill="currentColor" fill-rule="evenodd" d="M6 5.5a.5.5 0 1 0 0 1 .5.5 0 0 0 0-1ZM4.5 6a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Zm5.867.076a1 1 0 0 1 1.09.217l-.353.353.353-.353 2.397 2.397a.5.5 0 0 1-.708.707L10.75 7l-6.853 6.854a.5.5 0 0 1-.707-.707l6.853-6.854.353.353-.353-.353" clip-rule="evenodd"/>
+</svg>
+
+          );
+
+          export default Image;
+          

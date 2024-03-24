@@ -1,0 +1,13 @@
+
+          import React from "react";
+
+          const Error = (props) => (
+            <svg {...props} xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+  <path fill="currentColor" fill-rule="evenodd" d="M8.467 2.763a.546.546 0 0 0-.934 0l-5.466 9.491a.506.506 0 0 0 .467.746h10.932c.426 0 .648-.429.467-.745L8.467 2.763Zm.867-.499c-.586-1.019-2.082-1.019-2.668 0L1.2 11.756v.001C.613 12.778 1.382 14 2.533 14h10.932c1.151 0 1.92-1.222 1.335-2.243L9.334 2.264Z" clip-rule="evenodd"/>
+  <path fill="currentColor" fill-rule="evenodd" d="M8 6a.5.5 0 0 1 .5.5V9a.5.5 0 0 1-1 0V6.5A.5.5 0 0 1 8 6Z" clip-rule="evenodd"/>
+</svg>
+
+          );
+
+          export default Error;
+          

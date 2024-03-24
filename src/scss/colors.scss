@@ -1,0 +1,104 @@
+$black: #231f20;
+$grey-100: #fafafa;
+$grey-200: #f4f4f4;
+$grey-300: #edeeef;
+$grey-400: #edeeef;
+$grey-500: #dcddde;
+$grey-600: #bbbbbd;
+$grey-700: #77787b;
+$grey-900: #414042;
+
+$red-50: #f9e9ea;
+$red-100: #f4d3d4;
+$red-200: #e9a7aa;
+$red-300: #dd7a7f;
+$red-400: #d24e55;
+$red-500: #c7222a;
+$red-600: #c7222a;
+$red-700: #a71d23;
+$red-800: #8b151b;
+$red-900: #500e11;
+
+$warm-ivory: #fff4d9;
+$warm-yellow: #ffd65c;
+$support-yellow: #faa61a;
+$support-green: #bdd753;
+$progressive-green: #70b865;
+$innovative-purple: #7c2279;
+
+$negative-light: #f3e8e8;
+$negative-medium: #d1a1a4;
+$negative-dark: #8b151b;
+
+$positive-light: #f1f8f0;
+$positive-medium: #a9d4a3;
+$positive-dark: #107c10;
+
+$warning-light: #fff6e8;
+$warning-medium: #fdd591;
+$warning-dark: #ac5d02;
+
+$primary: $red-500 !default;
+$secondary: $grey-500 !default;
+$success: $positive-dark !default;
+$info: $innovative-purple !default;
+$warning: $warning-dark !default;
+$danger: $negative-dark !default;
+
+// function creates tc- bg- br- classes for each color
+
+@each $color,
+  $value
+    in (
+      "black": $black,
+      "grey-100": $grey-100,
+      "grey-200": $grey-200,
+      "grey-300": $grey-300,
+      "grey-400": $grey-400,
+      "grey-500": $grey-500,
+      "grey-600": $grey-600,
+      "grey-700": $grey-700,
+      "grey-900": $grey-900,
+      "red-50": $red-50,
+      "red-100": $red-100,
+      "red-200": $red-200,
+      "red-300": $red-300,
+      "red-400": $red-400,
+      "red-500": $red-500,
+      "red-600": $red-600,
+      "red-700": $red-700,
+      "red-800": $red-800,
+      "red-900": $red-900,
+      "warm-ivory": $warm-ivory,
+      "warm-yellow": $warm-yellow,
+      "support-yellow": $support-yellow,
+      "support-green": $support-green,
+      "progressive-green": $progressive-green,
+      "innovative-purple": $innovative-purple,
+      "negative-light": $negative-light,
+      "negative-medium": $negative-medium,
+      "negative-dark": $negative-dark,
+      "positive-light": $positive-light,
+      "positive-medium": $positive-medium,
+      "positive-dark": $positive-dark,
+      "warning-light": $warning-light,
+      "warning-medium": $warning-medium,
+      "warning-dark": $warning-dark,
+      "primary": $primary,
+      "secondary": $secondary,
+      "success": $success,
+      "info": $info,
+      "warning": $warning,
+      "danger": $danger
+    )
+{
+  .tc-#{$color} {
+    color: $value;
+  }
+  .bg-#{$color} {
+    background-color: $value;
+  }
+  .br-#{$color} {
+    border-color: $value;
+  }
+}
