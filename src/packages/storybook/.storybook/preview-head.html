@@ -13,8 +13,20 @@
 />
 
 <script>
+  const makeControlsResponsive = () => {
+    setTimeout(() => {
+      document
+        .getElementsByClassName("sbdocs-content")[0]
+        .lastChild.classList.add("overflow-x-scroll");
+    }, 10000);
+  };
   window.addEventListener("load", () => {
     document.body.setAttribute("data-bs-theme", "dark");
+
+    makeControlsResponsive();
+  });
+  window.addEventListener("change", () => {
+    makeControlsResponsive();
   });
 </script>
 
