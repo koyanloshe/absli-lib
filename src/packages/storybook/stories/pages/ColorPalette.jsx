@@ -87,7 +87,7 @@ const ColorPalettePage = () => {
             elements of ABC’s visual identity. These hues
             embody the core essence of our brand,
             representing strength, reliability, and
-            innovation. This Colour palette is used across
+            innovation. This colour palette is used across
             all the interactive elements such as CTA’s,
             links, inputs, selected states, etc. These brand
             Colours are the main Colours that make up the
