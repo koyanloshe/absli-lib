@@ -9,7 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "storybook": "storybook dev -p 6006 --config-dir ./src/packages/storybook/.storybook",
-    "build-storybook": "storybook build",
+    "storybook:build": "storybook build --config-dir ./src/packages/storybook/.storybook",
     "format:check": "prettier --check packages/**/**/src --cache",
     "format:write": "prettier --write packages/**/**/src --cache"
   },
