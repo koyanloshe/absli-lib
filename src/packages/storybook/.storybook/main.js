@@ -12,7 +12,7 @@ const config = {
     "./welcome.stories.mdx",
     "../stories/*.mdx",
     "../../components/**/*.stories.@(js|jsx|ts|tsx)",
-    "../../core/theme/stories/*.stories.@(js|jsx|ts|tsx)",
+    // "../../core/theme/stories/*.stories.@(js|jsx|ts|tsx)",
   ],
   addons: [
     getAbsolutePath("@storybook/addon-a11y"),
